@@ -1,0 +1,27 @@
+CSSConditionRule.log
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock, Paper, Scissors, Lizard, Spock Game</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <h1>Rock, Paper, Scissors, Lizard, Spock</h1>
+  <div id="game">
+    <button class="choice" id="rock"><i class="fas fa-hand-rock"></i> Rock</button>
+    <button class="choice" id="paper"><i class="fas fa-hand-paper"></i> Paper</button>
+    <button class="choice" id="scissors"><i class="fas fa-hand-scissors"></i> Scissors</button>
+    <button class="choice" id="lizard"><i class="fas fa-hand-lizard"></i> Lizard</button>
+    <button class="choice" id="spock"><i class="fas fa-hand-spock"></i> Spock</button>
+
+  </div>
+  <div id="result">
+    <h2 id="message">Make your move!</h2>
+    <p id="score">Score: 0</p>
+    <p id="tries">Tries left: 5</p>
+  </div>
+  <script src="assets/JS/script.js"></script>
+</body>
+</html>
