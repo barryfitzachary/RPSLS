@@ -1,7 +1,7 @@
 body {
   text-align: center;
   font-family: Arial, sans-serif;
-  background-image: url('assets/images/RPSLSwallpaper.jpg');
+  background-image: url=('assets/images/RPSLSwallpaper.jpg');
   background-size: cover;
 }
 
