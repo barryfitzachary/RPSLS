@@ -13,7 +13,7 @@ choices.forEach(choice => {
   choice.addEventListener('click', playGame);
 });
 
-// Game logic 
+// Game logic
 function playGame(event) {
   if (tries === 0) {
     message.textContent = 'Game over! You ran out of tries.';
@@ -44,7 +44,7 @@ function generateComputerChoice() {
 // Check the result
 function checkResult(userChoice, computerChoice) {
   if (userChoice === computerChoice) {
-    return "It's a tie, come on, you can do this!!";
+    return "It's a tie!";
   }
 
   switch (userChoice) {
